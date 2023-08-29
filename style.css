@@ -1,0 +1,319 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  background: #fdefd1;
+}
+.text {
+  width: 65px;
+  height: 25px;
+
+  color: #642c99;
+
+  font-size: 18px;
+  font-family: Wendy One;
+  font-weight: 900;
+}
+.header-content {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+}
+
+.ion {
+  position: relative;
+  color: #642c99;
+  font-family: Wendy One;
+
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 500px;
+}
+.number {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: #fde0ce;
+  display: flex;
+  width: 10px;
+  height: 17px;
+  display: block;
+  padding: 4px;
+  border-radius: 100%;
+  color: #642c99;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -20px;
+  margin-left: -15px;
+}
+a {
+  text-decoration: none;
+}
+.links {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-self: start;
+  gap: 50px;
+}
+
+.photo h1 {
+  width: 510px;
+  padding-top: -150px;
+  color: #642c99;
+  font-family: Wendy One;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.photo p {
+  width: 519px;
+  height: 44px;
+  flex-shrink: 0;
+  color: #642c99;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+
+  margin-left: 00px;
+}
+.photo button {
+  width: 206px;
+  height: 43px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #642c99;
+
+  color: #fbfac9;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 100px;
+}
+.photo img {
+  position: absolute;
+  margin-left: 500px;
+}
+.tor h1 {
+  position: absolute;
+  width: 530px;
+  height: 148px;
+  flex-shrink: 0;
+  color: #feefd0;
+  font-family: Wendy One;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+.tor p {
+  position: absolute;
+  width: 593px;
+  height: 160px;
+  flex-shrink: 0;
+  color: #feefd0;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  padding-left: 50px;
+  padding-top: 340px;
+}
+.tor p1 {
+  position: absolute;
+  width: 593px;
+  height: 160px;
+  flex-shrink: 0;
+  color: #feefd0;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  padding-left: 50px;
+  margin-top: 500px;
+}
+.top {
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 20px;
+}
+.hot {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.hot img {
+  margin-top: 200px;
+  margin-left: 600px;
+}
+.hot h1 {
+  width: 530px;
+  height: 148px;
+  color: #642c99;
+  font-family: Wendy One;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-top: -550px;
+}
+.hot p {
+  width: 600px;
+  height: 44px;
+  color: #642c99;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  margin-top: 40px;
+}
+.hot button {
+  width: 206px;
+  height: 43px;
+  border-radius: 8px;
+  background: #642c99;
+  color: #fbfac9;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-top: 100px;
+}
+.tupi {
+  position: relative;
+  z-index: 3;
+}
+.cake h1 {
+  position: absolute;
+  z-index: 4;
+  width: 685px;
+  height: 148px;
+  color: #feefd0;
+  font-family: Wendy One;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 300px;
+  margin-left: 30px;
+}
+.carta {
+  position: absolute;
+  margin-top: -1100px;
+}
+.put h1 {
+  width: 131px;
+  height: 66.641px;
+  color: #fdefd1;
+  font-family: Wendy One;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -350px;
+  margin-left: 100px;
+}
+.put h2 {
+  width: 160px;
+  height: 30.291px;
+  color: #fdefd1;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+  margin-left: 400px;
+  margin-top: -235px;
+}
+.inpit input {
+  width: 394px;
+  height: 43.417px;
+  border-radius: 8px;
+  border: 2px solid #fdefd1 !important;
+  border: none;
+  width: 350px;
+  height: 32.311px;
+  color: #fdefd1 !important;
+
+  font-family: Lato;
+  background: none;
+  font-size: 16px;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+.inpit button {
+  border-radius: 8px;
+  background: #fdefd1;
+  width: 63px;
+  height: 35px;
+
+  color: #642c99;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.put p {
+  color: #fdefd1;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+  margin-left: 100px;
+  margin-top: 25px;
+}
+.inpit p {
+  display: block;
+  color: #fdefd1;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+  margin-left: 400px;
+  margin-top: 20px;
+}
+.text2 {
+  height: 22.214px;
+  color: #fdefd1;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 100px;
+  margin-top: 50px;
+}
